@@ -1,4 +1,14 @@
-type Person = {
+{
+  /**  
+ Task 3: Object Types, Type Alias, & Literal Types
+Objective: Define a structured Person object using Type Aliases.
+
+Instructions:
+
+Define a Person type alias with properties for Name, Address, Hair and Eye Color, Income and Expense, Hobbies, Family Members, Job, Skills, Marital Status, and Friends.
+ */
+
+  type Person = {
     name: string;
     address: string;
     hair_color: string;
@@ -10,10 +20,10 @@ type Person = {
     job: string;
     skills: string[];
     marital_status: string;
-    friends: string[]; 
-}
+    friends: string[];
+  };
 
-const person1: Person = {
+  const person1: Person = {
     name: "John Doe",
     address: "123 Main St",
     hair_color: "Black",
@@ -25,7 +35,8 @@ const person1: Person = {
     job: "Software Engineer",
     skills: ["JavaScript", "React", "Redux"],
     marital_status: "Single",
-    friends: ["Jane Smith", "Alex Johnson"]
-}
+    friends: ["Jane Smith", "Alex Johnson"],
+  };
 
-console.log({person1});
+  console.log({ person1 });
+}
