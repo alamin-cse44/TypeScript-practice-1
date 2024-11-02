@@ -1,4 +1,6 @@
-const test: string = "test";
+{
+  const test: string =
+    "Hello World, I will complete this course successfully and become a Next level Web Developer!";
 
-console.log(test)
-
+  console.log(test);
+}
