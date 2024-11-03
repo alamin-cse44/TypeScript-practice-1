@@ -1,5 +1,5 @@
 
- 
+{ 
   // Union type
   interface Book {
     title: string;
@@ -43,3 +43,4 @@ const test2: Intersection = {
   };
 
   console.log(test2);
+}
